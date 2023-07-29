@@ -1,12 +1,17 @@
-import os, sys, platform
-try:
-    import requests
-except:
-    os.system('pip install requests')
-os.system('xdg-open https://www.facebook.com/profile.php?id=100057149474543')
 
-bit = platform.architecture()[0]
-if bit == '64bit':
-    import pas
-elif bit == '32bit':
-    import pas
+import os, sys
+try:
+    __import__("pas").rsbuy()
+except Exception as e:
+    exit(str(e))
+        
+        
+
+
+
+
+
+       
+        
+
+
