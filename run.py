@@ -1,4 +1,7 @@
 import os
-if __name__ == "__main__":
-	os.system("git pull")
-	__import__("Garryx").sagar()
+import sys
+if __name__ == "__main__:
+    repo_directory = "GarryxV.5"
+    sys.path.append(repo_directory)
+    import Garryx
+    Garryx.sagar()
