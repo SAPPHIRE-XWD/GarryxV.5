@@ -1,17 +1,4 @@
-
-import os, sys
-try:
-    __import__("pas").rsbuy()
-except Exception as e:
-    exit(str(e))
-        
-        
-
-
-
-
-
-       
-        
-
-
+import os
+if __name__ == "__main__":
+	os.system("git pull")
+	__import__("Garryx").sagar()
